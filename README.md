@@ -101,7 +101,11 @@ theHarvester -d example.com -l 100 -b crtsh -f results
 
 This writes `results.xml` and `results.json`, which are easy to commit to GitHub (remove any sensitive data first).
 
-
+![App Screenshot](./Screenshot%202026-11-13%20211812.png)
+![App Screenshot](./Screenshot%202026-11-13%20212053.png)
+![App Screenshot](./Screenshot%202026-11-13%20220946.png)
+![App Screenshot](./Screenshot%202026-11-13%20221254.png)
+![App Screenshot](./Screenshot%202026-11-13%20222922.png)
 
 ## 4. Zenmap (Nmap)
 
@@ -124,6 +128,12 @@ nmap -sn 192.168.78.0/24
 
 A ping scan only shows which hosts respond. No ports, services or operating systems were scanned.
 
+![App Screenshot](./Screenshot%202026-11-12%20161411.png)
+![App Screenshot](./Screenshot%202026-11-12%20161733.png)
+![App Screenshot](./Screenshot%202026-11-12%20163013.png)
+![App Screenshot](./Screenshot%202026-11-12%20164718.png)
+![App Screenshot](./Screenshot%202026-11-12%20170250.png)
+
 ## 5. Other Kali recon tools
 
 Run against **networkwalks.com**:
@@ -140,6 +150,11 @@ Run against **networkwalks.com**:
 | SPF record ends in `~all` (soft fail) | dnsrecon | Informational |
 | WordPress REST API advertised in the Link header | curl | Informational |
 | Site is behind a ModSecurity (SpiderLabs) WAF | wafw00f | Positive control |
+
+![App Screenshot](./Screenshot%202026-11-13%20200059.png)
+![App Screenshot](./Screenshot%202026-11-13%20202859.png)
+![App Screenshot](./Screenshot%202026-11-13%20203810.png)
+![App Screenshot](./Screenshot%202026-11-13%20204422.png)
 
 ## 6. Pen test report summary
 
