@@ -101,6 +101,8 @@ theHarvester -d example.com -l 100 -b crtsh -f results
 
 This writes `results.xml` and `results.json`, which are easy to commit to GitHub (remove any sensitive data first).
 
+
+
 ## 4. Zenmap (Nmap)
 
 Zenmap is the graphical front end for Nmap. A **Ping scan** profile was used to find live hosts on the lab network.
