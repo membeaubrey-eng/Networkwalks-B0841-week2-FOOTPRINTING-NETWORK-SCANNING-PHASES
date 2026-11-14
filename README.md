@@ -99,7 +99,7 @@ Sources that reported missing keys in this lab included BeVigil, Bitbucket, Buff
 theHarvester -d example.com -l 100 -b crtsh -f results
 ```
 
-This writes `results.xml` and `results.json`, which are easy to commit to GitHub (remove any sensitive data first).
+This writes `results.xml` and `results.json`, which are easy to commit to GitHub .
 
 ![App Screenshot](./Screenshot%202026-11-13%20211812.png)
 ![App Screenshot](./Screenshot%202026-11-13%20212053.png)
@@ -158,7 +158,8 @@ Run against **networkwalks.com**:
 
 ## 6. Pen test report summary
 
-The full report is in [`reports/`](reports/). It follows this structure:
+The full report is here: [Penetration Test Report: Reconnaissance Phase (Word)](https://github.com/membeaubrey-eng/Networkwalks-B0841-week2-FOOTPRINTING-NETWORK-SCANNING-PHASES/raw/main/Penetration%20Test%20Report%20Reconnaissance%20Phase.docx). It follows this structure:
+
 
 1. Executive summary
 2. Scope and rules of engagement
@@ -205,11 +206,6 @@ The full report is in [`reports/`](reports/). It follows this structure:
 └── commands.md
 ```
 
-Embed a screenshot in this README like this:
-
-```markdown
-![theHarvester all-sources run](screenshots/theharvester-all-sources.png)
-```
 
 ## References
 
